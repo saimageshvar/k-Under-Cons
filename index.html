@@ -34,14 +34,30 @@
 					
 					
 					<ul class="nav navbar-nav">
-						<div class="col-xs-6 col-md-6"><li class="nav-item active">
-							<a href="#" class="pull-left"><img class="animated fadeInDown " src="./img/ceg.png"  alt="ceg logo" width="160" height="40"></a>
-						</li>
+						<div class="col-xs-5 col-md-5" style="padding-top:10px">
+							<li class="nav-item active">
+								<a href="#" class="pull-left">
+									<img class="animated fadeInDown " src="./img/ceg.png"  alt="ceg logo" width="120" height="30">
+								</a>
+							</li>
 						</div>
-						<div class="col-xs-6 col-md-6"><li class="nav-item" style="float:right">
-							<a href="#" class="pull-right"><img class="animated fadeInUp" src="./img/unesco.png"  alt="ceg logo" width="120" height="50"></a>
-						</li>
+						<div class="col-xs-3 col-md-3">
+							<li class="nav-item">
+								<a href="#">
+									<img class="animated flash" src="./img/k!.png"  alt="k! logo" width="140" height="50" onmouseover='flip(this)' onmouseout='stop(this)'>
+								</a>
+								
+							</li>
 						</div>
+						<div class="col-xs-4 col-md-4">
+							<li class="nav-item" style="float:right">
+								
+								<a href="#" class="pull-right">
+									<img class="animated fadeInUp" src="./img/unesco.png"  alt="unesco logo" width="120" height="50">
+								</a>
+							</li>
+						</div>
+						
 						
 						
 						
@@ -50,6 +66,17 @@
 					
 					
 				</nav>
+				<script>
+					function flip(element)
+					{
+						element.setAttribute("class","animated flip infinite");
+					}
+					
+					function stop(element)
+					{
+						element.setAttribute("class","");
+					}
+				</script>
 			</div>
 			
 		</div>
@@ -70,7 +97,27 @@
 		</div>
 		<div class="container-fluid">
 			<nav class="navbar collapse navbar-toggleable-xs navbar-fixed-bottom scrolling-navbar navbar-dark special-color-dark">
-				<p>asdsa </p>
+				<div class="row">
+					<div class="col-xs-5 col-md-5" style="padding-top:10px">
+						<strong style="color:white">CEG Tech Forum © 2016. All Rights Reserved</strong>
+					</div>
+					<div class="col-xs-5 col-md-5" style="padding-top:10px">
+						<a href="#"><i class="fa fa-facebook fa-6" aria-hidden="true" style="color:white"></i></a>
+						&nbsp;
+						<a href="#"><i class="fa fa-twitter fa-6" aria-hidden="true" style="color:white"></i></a>
+						&nbsp;
+						<a href="#"><i class="fa fa-youtube-play fa-6" aria-hidden="true" style="color:white"></i></a>
+					</div>
+					<div class="col-xs-2 col-md-2" style="padding-top:10px">
+						<ul class="list-inline">
+							<li class="list-inline-item"><strong><a href="#" style="color:white">k!16</a></strong></li>
+							<li class="list-inline-item"><strong><a href="#" style="color:white">k!15</a></strong></li>
+							<li class="list-inline-item"><strong><a href="#" style="color:white">k!14</a></strong></li>
+							<li class="list-inline-item"><strong style="color:white">Archives</strong></li>
+							
+						</ul>
+					</div>
+				</div>
 				
 				
 			</nav>
@@ -95,6 +142,8 @@
 		<script type="text/javascript" src="js/mdb.min.js"></script>
 		
 		
+		
+		
 	</body>
 	
-</html>			
+</html>									
